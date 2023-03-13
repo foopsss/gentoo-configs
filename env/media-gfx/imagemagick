@@ -1,0 +1,16 @@
+# Hook for ImageMagick.
+if [[ "${EBUILD_PHASE_FUNC}" = "pkg_postinst" ]]; 
+then
+	elog "Modifying the policy.xml file to allow convert to create PDF files..."
+	sed -i 's|<policy domain="coder" rights="none" pattern="PDF" />|<!-- policy domain="coder" rights="none" pattern="PDF" /> -->|' /etc/ImageMagick-7/policy.xml
+	
+	exitcode=$?
+
+	if [[ ! "$exitcode" -gt "0" ]];
+	then
+		elog "Policy file modified succesfully."
+	else
+		elog "The policy file could not be modified."
+	fi
+fi
+
