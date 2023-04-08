@@ -1,0 +1,7 @@
+# Hook for the linux-firmware package.
+if [[ "${EBUILD_PHASE_FUNC}" = "pkg_postinst" ]]; 
+then
+	elog "Deleting unnecessary firmware config files."
+	rm /etc/portage/savedconfig/sys-kernel/linux-firmware-*
+fi
+
