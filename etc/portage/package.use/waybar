@@ -1,1 +1,1 @@
-gui-apps/waybar experimental network tray wifi
+gui-apps/waybar experimental network pipewire tray wifi -pulseaudio
