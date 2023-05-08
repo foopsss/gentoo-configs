@@ -1,0 +1,15 @@
+# Hook for gnome-session.
+if [[ "${EBUILD_PHASE_FUNC}" = "pkg_postinst" ]]; 
+then
+	elog "Removing some custom X session files..."
+	
+	if [[ -e /usr/share/xsessions/gnome-custom-session.desktop ]];
+	then
+		mv -f /usr/share/xsessions/gnome-custom-session.desktop /usr/share/xsessions/gnome-custom-session.backup
+	fi
+
+	if [[ -e /usr/share/xsessions/Xsession.desktop ]];
+	then
+		mv -f /usr/share/xsessions/Xsession.desktop /usr/share/xsessions/Xsession.backup
+	fi
+fi
