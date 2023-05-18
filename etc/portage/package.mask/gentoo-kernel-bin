@@ -1,2 +1,2 @@
->virtual/dist-kernel-5.15.107
->sys-kernel/gentoo-kernel-bin-5.15.107
+>virtual/dist-kernel-5.15.110-r2
+>sys-kernel/gentoo-kernel-bin-5.15.110-r2
