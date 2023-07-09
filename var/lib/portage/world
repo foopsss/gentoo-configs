@@ -1,15 +1,12 @@
 app-admin/doas
 app-admin/eclean-kernel
-app-admin/emacs-updater
 app-arch/file-roller
 app-arch/unrar
 app-arch/unzip
 app-arch/zip
 app-crypt/seahorse
-app-editors/emacs
 app-editors/gnome-text-editor
 app-editors/nano
-app-emacs/emacs-daemon
 app-eselect/eselect-repository
 app-misc/neofetch
 app-misc/shell-color-scripts
