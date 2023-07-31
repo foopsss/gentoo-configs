@@ -16,7 +16,6 @@ app-portage/eix
 app-portage/genlop
 app-portage/gentoolkit
 app-portage/metagen
-app-shells/pwsh-bin
 app-text/evince
 app-text/poppler
 dev-lang/fpc
@@ -62,6 +61,7 @@ media-video/pipewire
 media-video/totem
 media-video/wireplumber
 net-firewall/ufw
+net-libs/webkit-gtk
 net-misc/networkmanager
 net-misc/onedriver
 net-p2p/transmission
@@ -73,6 +73,7 @@ sys-apps/gnome-disk-utility
 sys-auth/rtkit
 sys-boot/grub
 sys-boot/plymouth
+sys-devel/gdb
 sys-fs/btrfs-progs
 sys-fs/dosfstools
 sys-kernel/gentoo-kernel-bin
