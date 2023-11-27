@@ -8,7 +8,6 @@ app-crypt/seahorse
 app-editors/gnome-text-editor
 app-editors/nano
 app-eselect/eselect-repository
-app-misc/neofetch
 app-misc/shell-color-scripts
 app-office/libreoffice-bin
 app-portage/cpuid2cpuflags
@@ -60,15 +59,14 @@ sys-apps/fwupd
 sys-apps/gnome-disk-utility
 sys-boot/grub
 sys-boot/plymouth
+sys-devel/gdb
 sys-fs/btrfs-progs
 sys-fs/dosfstools
 sys-kernel/gentoo-kernel-bin
 sys-kernel/installkernel-gentoo
 sys-kernel/linux-firmware
-sys-process/htop
 www-client/brave-bin
 www-client/firefox-bin
 www-client/links
 x11-misc/vdpauinfo
-x11-terms/alacritty
 x11-themes/adw-gtk3
