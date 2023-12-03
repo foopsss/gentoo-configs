@@ -65,7 +65,6 @@ sys-fs/dosfstools
 sys-kernel/gentoo-kernel-bin
 sys-kernel/installkernel-gentoo
 sys-kernel/linux-firmware
-www-client/brave-bin
 www-client/firefox-bin
 www-client/links
 x11-misc/vdpauinfo
