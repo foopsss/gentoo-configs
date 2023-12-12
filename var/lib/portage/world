@@ -15,6 +15,7 @@ app-portage/eix
 app-portage/genlop
 app-portage/gentoolkit
 app-portage/metagen
+app-shells/pwsh-bin
 app-text/evince
 app-text/poppler
 dev-lang/fpc
