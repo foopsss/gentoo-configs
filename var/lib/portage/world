@@ -18,6 +18,7 @@ app-portage/metagen
 app-shells/pwsh-bin
 app-text/evince
 app-text/poppler
+dev-debug/gdb
 dev-lang/fpc
 dev-lang/go
 dev-libs/boost
@@ -60,11 +61,10 @@ sys-apps/fwupd
 sys-apps/gnome-disk-utility
 sys-boot/grub
 sys-boot/plymouth
-sys-devel/gdb
 sys-fs/btrfs-progs
 sys-fs/dosfstools
 sys-kernel/gentoo-kernel-bin
-sys-kernel/installkernel-gentoo
+sys-kernel/installkernel
 sys-kernel/linux-firmware
 www-client/firefox-bin
 www-client/links
