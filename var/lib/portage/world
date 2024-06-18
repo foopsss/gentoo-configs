@@ -8,7 +8,6 @@ app-crypt/seahorse
 app-editors/gnome-text-editor
 app-editors/nano
 app-eselect/eselect-repository
-app-misc/neofetch
 app-misc/shell-color-scripts
 app-office/libreoffice-bin
 app-portage/cpuid2cpuflags
@@ -50,7 +49,6 @@ media-video/libva-utils
 media-video/pipewire
 media-video/totem
 media-video/wireplumber
-net-firewall/ufw
 net-libs/webkit-gtk
 net-misc/networkmanager
 net-misc/onedriver
@@ -65,7 +63,6 @@ sys-boot/plymouth
 sys-fs/btrfs-progs
 sys-fs/dosfstools
 sys-kernel/gentoo-kernel-bin
-sys-kernel/gentoo-kernel-bin:6.6.28
 sys-kernel/installkernel
 sys-kernel/linux-firmware
 www-client/firefox-bin
