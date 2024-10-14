@@ -7,6 +7,7 @@ app-arch/zip
 app-crypt/seahorse
 app-editors/gnome-text-editor
 app-editors/nano
+app-editors/vscode
 app-eselect/eselect-repository
 app-misc/shell-color-scripts
 app-office/libreoffice-bin
@@ -45,6 +46,7 @@ media-gfx/gimp
 media-gfx/imagemagick
 media-libs/libpulse
 media-sound/alsa-utils
+media-video/ffmpeg
 media-video/libva-utils
 media-video/pipewire
 media-video/totem
@@ -60,11 +62,13 @@ sys-apps/fwupd
 sys-apps/gnome-disk-utility
 sys-boot/grub
 sys-boot/plymouth
+sys-devel/clang
 sys-fs/btrfs-progs
 sys-fs/dosfstools
 sys-kernel/gentoo-kernel-bin
 sys-kernel/installkernel
 sys-kernel/linux-firmware
+sys-power/tlp
 www-client/firefox-bin
 www-client/links
 x11-misc/vdpauinfo
