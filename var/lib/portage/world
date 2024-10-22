@@ -62,7 +62,6 @@ sys-apps/fwupd
 sys-apps/gnome-disk-utility
 sys-boot/grub
 sys-boot/plymouth
-sys-devel/clang
 sys-fs/btrfs-progs
 sys-fs/dosfstools
 sys-kernel/gentoo-kernel-bin
