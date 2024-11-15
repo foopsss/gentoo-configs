@@ -8,6 +8,7 @@ app-crypt/seahorse
 app-editors/gnome-text-editor
 app-editors/nano
 app-editors/vscode
+app-emulation/wine-vanilla
 app-eselect/eselect-repository
 app-misc/shell-color-scripts
 app-office/libreoffice-bin
@@ -19,6 +20,12 @@ app-portage/metagen
 app-shells/pwsh-bin
 app-text/evince
 app-text/poppler
+cross-i686-w64-mingw32/binutils
+cross-i686-w64-mingw32/gcc
+cross-i686-w64-mingw32/mingw64-runtime
+cross-x86_64-w64-mingw32/binutils
+cross-x86_64-w64-mingw32/gcc
+cross-x86_64-w64-mingw32/mingw64-runtime
 dev-debug/gdb
 dev-lang/fpc
 dev-lang/go
@@ -29,6 +36,7 @@ dev-qt/qtwidgets
 dev-util/android-tools
 dev-util/gnome-builder
 dev-util/pkgcheck
+dev-util/rustup
 dev-vcs/git
 dev-vcs/github-desktop
 gnome-base/dconf-editor
@@ -39,8 +47,7 @@ gnome-extra/gnome-system-monitor
 gnome-extra/gnome-tweaks
 mail-client/thunderbird-bin
 media-fonts/fontawesome
-media-fonts/noto-cjk
-media-fonts/noto-emoji
+media-fonts/fonts-meta
 media-gfx/eog
 media-gfx/gimp
 media-gfx/imagemagick
@@ -62,6 +69,7 @@ sys-apps/fwupd
 sys-apps/gnome-disk-utility
 sys-boot/grub
 sys-boot/plymouth
+sys-devel/crossdev
 sys-fs/btrfs-progs
 sys-fs/dosfstools
 sys-kernel/gentoo-kernel-bin

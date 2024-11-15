@@ -1,2 +1,3 @@
 virtual/rust
 dev-lang/rust-bin
+dev-util/rustup
