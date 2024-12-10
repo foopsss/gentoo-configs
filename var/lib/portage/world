@@ -7,7 +7,6 @@ app-arch/zip
 app-crypt/seahorse
 app-editors/gnome-text-editor
 app-editors/nano
-app-editors/vscode
 app-emulation/wine-vanilla
 app-eselect/eselect-repository
 app-misc/shell-color-scripts
@@ -46,7 +45,6 @@ gnome-extra/gnome-calculator
 gnome-extra/gnome-system-monitor
 gnome-extra/gnome-tweaks
 mail-client/thunderbird-bin
-media-fonts/fontawesome
 media-fonts/fonts-meta
 media-gfx/eog
 media-gfx/gimp

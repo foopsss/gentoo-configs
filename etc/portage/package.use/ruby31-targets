@@ -64,3 +64,8 @@
 # required by dev-lang/ruby-3.2.4-r1::gentoo
 # required by dev-ruby/debug-1.9.2::gentoo[ruby_targets_ruby32]
 >=dev-ruby/logger-1.6.1 ruby_targets_ruby31
+# required by dev-lang/ruby-3.1.6-r1::gentoo
+# required by dev-ruby/rbs-3.6.1::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-3.2.5-r2::gentoo
+# required by dev-ruby/net-imap-0.4.17::gentoo[ruby_targets_ruby32]
+>=dev-ruby/power_assert-2.0.4 ruby_targets_ruby31
