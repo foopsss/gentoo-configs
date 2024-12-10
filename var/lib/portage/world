@@ -35,7 +35,6 @@ dev-qt/qtwidgets
 dev-util/android-tools
 dev-util/gnome-builder
 dev-util/pkgcheck
-dev-util/rustup
 dev-vcs/git
 dev-vcs/github-desktop
 gnome-base/dconf-editor
