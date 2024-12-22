@@ -10,7 +10,6 @@ app-editors/nano
 app-emulation/wine-vanilla
 app-eselect/eselect-repository
 app-misc/shell-color-scripts
-app-office/libreoffice-bin
 app-portage/cpuid2cpuflags
 app-portage/eix
 app-portage/genlop
@@ -40,7 +39,6 @@ media-fonts/fonts-meta
 media-gfx/eog
 media-gfx/gimp
 media-gfx/imagemagick
-media-video/ffmpeg
 media-video/libva-utils
 media-video/pipewire
 media-video/totem
