@@ -38,6 +38,7 @@ media-fonts/fonts-meta
 media-gfx/eog
 media-gfx/gimp
 media-gfx/imagemagick
+media-gfx/pinta
 media-video/libva-utils
 media-video/pipewire
 media-video/totem
