@@ -1,4 +1,7 @@
-# Hook for the linux-firmware package.
+# Hook for sys-kernel/linux-firmware.
+# I already have a somewhat trimmed down config file for the
+# linux-firmware package, so I don't want any other ones to
+# be laying around in the "/etc/portage/savedconfig" folder.
 if [[ "${EBUILD_PHASE_FUNC}" = "pkg_postinst" ]]; 
 then
 	elog "Deleting unnecessary firmware config files."
