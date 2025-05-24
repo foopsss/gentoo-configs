@@ -36,6 +36,7 @@ media-video/pipewire
 media-video/totem
 media-video/wireplumber
 net-misc/networkmanager
+net-misc/onedriver
 net-wireless/iwd
 sys-apps/flatpak
 sys-apps/fwupd
