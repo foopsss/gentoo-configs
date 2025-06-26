@@ -7,6 +7,7 @@ app-arch/zip
 app-crypt/seahorse
 app-editors/gnome-text-editor
 app-editors/nano
+app-emulation/wine-vanilla
 app-misc/shell-color-scripts
 app-portage/cpuid2cpuflags
 app-portage/eix
@@ -36,7 +37,6 @@ media-video/pipewire
 media-video/totem
 media-video/wireplumber
 net-misc/networkmanager
-net-misc/onedriver
 net-wireless/iwd
 sys-apps/flatpak
 sys-apps/fwupd
