@@ -36,6 +36,7 @@ net-wireless/iwd
 sys-apps/flatpak
 sys-apps/fwupd
 sys-apps/gnome-disk-utility
+sys-apps/nvme-cli
 sys-apps/systemd
 sys-block/io-scheduler-udev-rules
 sys-boot/efibootmgr
