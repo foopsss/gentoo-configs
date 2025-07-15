@@ -1,0 +1,2 @@
+# Added "boot" to use systemd-boot.
+sys-apps/systemd boot

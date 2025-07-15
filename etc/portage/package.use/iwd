@@ -1,0 +1,2 @@
+# Added "standalone" to enable the built-in DHCP client and DNS handling.
+net-wireless/iwd standalone

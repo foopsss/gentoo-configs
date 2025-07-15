@@ -1,0 +1,4 @@
+# Added "cjk" cause I do want the CJK variants of some fonts.
+media-fonts/noto cjk
+# Added "-emoji" and "-latin" cause I don't need fonts that support emojis or additional latin fonts.
+media-fonts/fonts-meta -emoji -latin

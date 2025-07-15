@@ -1,1 +1,4 @@
-dev-util/gnome-builder -d-spy -flatpak -spell -sysprof
+# Added "-d-spy" and "-sysprof" because I don't need D-Spy or Sysprof.
+# Added "-flatpak" and "-spell" because I don't need Flatpak or dictionary support.
+# Added "-webkit" because I don't want to install net-libs/webkit-gtk.
+dev-util/gnome-builder -d-spy -flatpak -spell -sysprof -webkit

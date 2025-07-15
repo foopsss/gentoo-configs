@@ -1,1 +1,3 @@
-net-misc/networkmanager iwd policykit wifi -dhclient -dhcpcd -gtk-doc -ppp -wext
+# Added "iwd" to use net-wireless/iwd to provide Wi-Fi support.
+# Added "-gtk-doc", "-ppp" and "-wext" to remove support for gtk-doc based developer documentation, mobile broadband and PPPoE connections and the Wireless Extensions API.
+net-misc/networkmanager iwd -gtk-doc -ppp -wext
