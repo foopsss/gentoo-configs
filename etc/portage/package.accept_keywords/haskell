@@ -1,0 +1,6 @@
+# Haskell has no stable keywords in Gentoo.
+dev-haskell/*
+dev-lang/ghc
+
+# Unmask all the packages from the "haskell" overlay.
+*/*::haskell

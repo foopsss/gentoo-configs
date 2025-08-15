@@ -16,7 +16,9 @@ app-shells/bash-completion
 app-shells/pwsh-bin
 app-text/evince
 dev-debug/gdb
+dev-lang/dmd
 dev-lang/fpc
+dev-lang/ghc
 dev-python/black
 dev-python/flake8
 dev-python/python-lsp-black
@@ -29,6 +31,7 @@ gnome-extra/gnome-calculator
 gnome-extra/gnome-system-monitor
 gnome-extra/gnome-tweaks
 media-fonts/fonts-meta
+media-fonts/noto-emoji
 media-gfx/eog
 media-gfx/gimp
 media-gfx/imagemagick
@@ -38,6 +41,7 @@ media-video/libva-utils
 media-video/pipewire
 media-video/totem
 media-video/wireplumber
+net-misc/onedrive
 net-wireless/iw
 net-wireless/iwd
 sys-apps/flatpak
