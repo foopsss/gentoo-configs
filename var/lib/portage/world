@@ -32,7 +32,6 @@ gnome-extra/gnome-system-monitor
 gnome-extra/gnome-tweaks
 media-fonts/fonts-meta
 media-fonts/noto-cjk
-media-fonts/noto-emoji
 media-gfx/eog
 media-gfx/gimp
 media-gfx/imagemagick
@@ -52,6 +51,8 @@ sys-apps/nvme-cli
 sys-apps/systemd
 sys-block/io-scheduler-udev-rules
 sys-boot/efibootmgr
+sys-boot/mokutil
+sys-boot/shim
 sys-firmware/intel-microcode
 sys-firmware/sof-firmware
 sys-fs/btrfs-progs

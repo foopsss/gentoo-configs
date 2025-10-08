@@ -1,2 +1,0 @@
-# Added "savedconfig" to use the config file on "/etc/portage/savedconfig/sys-kernel".
-sys-kernel/linux-firmware savedconfig
