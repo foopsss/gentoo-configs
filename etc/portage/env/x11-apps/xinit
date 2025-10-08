@@ -2,11 +2,14 @@
 # This hook changes the extension of the Xsession.desktop file at
 # "/usr/share/xsessions" to make sure it does not show up on GDM.
 # The "GNOME on X.org" entry is all I need.
-if [[ "${EBUILD_PHASE_FUNC}" = "pkg_postinst" ]]; 
-then
-	elog "Removing some custom X session files..."
-	if [[ -e /usr/share/xsessions/Xsession.desktop ]];
-	then
-		mv -f /usr/share/xsessions/Xsession.desktop /usr/share/xsessions/Xsession.backup
-	fi
-fi
+post_pkg_postinst() {
+    if [[ -e /usr/share/xsessions/Xsession.desktop ]]; then
+        ebegin "Removing some custom X session files..."
+        local return 0
+        local xsession_loc=${EROOT}/usr/share/xsessions/Xsession.desktop
+        local xsession_backup_loc=${EROOT}/usr/share/xsessions/Xsession.backup
+
+        mv -f ${xsession_loc} ${xsession_backup_loc} || ( return=1 )
+        eend ${return} || ewarn "No se pudo renombrar ${xsession_loc}"
+    fi
+}
