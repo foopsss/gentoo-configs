@@ -1,9 +1,8 @@
 # Hook for sys-boot/shim.
 # The idea is to update the shim files after every update.
-
+#
 # Based on the hook available at: https://wiki.gentoo.org/wiki/Systemd/systemd-boot#ESP_file_update_process.
 # However, the locations are different since I am working with the locations shown in: https://wiki.gentoo.org/wiki/Shim#systemd-boot.
-# I am booting systemd-boot through shim, so it is not necessary to trick shim by renaming the sdboot binary.
 
 post_pkg_postinst() {
     ebegin "Updating shim..."
