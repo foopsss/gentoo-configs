@@ -14,7 +14,7 @@ app-portage/gentoolkit
 app-portage/portage-utils
 app-shells/bash-completion
 app-shells/pwsh-bin
-app-text/evince
+app-text/papers
 dev-debug/gdb
 dev-lang/dmd
 dev-lang/fpc
@@ -32,9 +32,9 @@ gnome-extra/gnome-system-monitor
 gnome-extra/gnome-tweaks
 media-fonts/fonts-meta
 media-fonts/noto-cjk
-media-gfx/eog
 media-gfx/gimp
 media-gfx/imagemagick
+media-gfx/loupe
 media-gfx/pinta
 media-libs/libva-intel-media-driver
 media-video/libva-utils
