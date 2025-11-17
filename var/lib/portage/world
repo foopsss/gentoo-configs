@@ -1,11 +1,14 @@
 app-admin/doas
 app-admin/eclean-kernel
+app-admin/emacs-updater
 app-arch/file-roller
 app-arch/unrar
 app-arch/unzip
 app-arch/zip
 app-backup/snapper
+app-editors/emacs
 app-editors/gnome-text-editor
+app-editors/nano
 app-eselect/eselect-repository
 app-misc/shell-color-scripts
 app-portage/eix
