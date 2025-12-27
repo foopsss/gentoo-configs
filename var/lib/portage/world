@@ -21,7 +21,6 @@ app-text/papers
 dev-debug/gdb
 dev-lang/dmd
 dev-lang/fpc
-dev-lang/ghc
 dev-python/black
 dev-python/flake8
 dev-python/mypy
