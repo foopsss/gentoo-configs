@@ -14,6 +14,7 @@ app-misc/shell-color-scripts
 app-portage/eix
 app-portage/genlop
 app-portage/gentoolkit
+app-portage/metagen
 app-portage/portage-utils
 app-shells/bash-completion
 app-shells/pwsh-bin
@@ -28,6 +29,8 @@ dev-python/python-lsp-black
 dev-python/python-lsp-server
 dev-util/android-tools
 dev-util/gnome-builder
+dev-util/pkgcheck
+dev-util/pkgdev
 dev-vcs/github-desktop
 gnome-base/gnome-light
 gnome-extra/gnome-calculator
